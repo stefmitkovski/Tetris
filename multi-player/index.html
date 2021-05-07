@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas id="tetrisPlayerOne" width="200" height="400"></canvas>
+        <canvas id="nextPlayerOne" width="80" height="80"></canvas>
+        <hr width="1" size="500" style="border: solid black;">
+        
+        <canvas id="tetrisPlayerTwo" width="200" height="400"></canvas>
+        <canvas id="nextPlayerTwo" width="80" height="80"></canvas>
+
+        <div id='scoreP1'>Score:<span>0</span></div>
+        <div id='scoreP2'>Score:<span>0</span></div>
+
+        <div id="instructionsPlayerOne">
+            <span>Instructions for player one: <br><br>
+                Press the A key to move left <br>
+                Press the D key to move right <br>
+                Press the S key to move down <br>
+                Press the Spacebar key to rotate the tetromino
+            </span>
+        </div>
+
+        <br div="line">
+
+        <div id="instructionsPlayerTwo">
+            <span>Instructions for player two: <br><br>
+                Press the Left Arrow key to move left <br>
+                Press the Right Arrow key to move right <br>
+                Press the Down Arrow key to move down <br>
+                Press the Up Arrow key to rotate the tetromino
+
+            </span>
+        </div>
+
+            <script src="tetrominoes.js"></script>
+        <script src="tetris.js"></script>
+    </body>
+</html>

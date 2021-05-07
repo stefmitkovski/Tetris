@@ -1,0 +1,68 @@
+#scoreP1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    bottom: 38%;
+    left: 32%;
+}
+
+
+canvas{
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+}
+
+#tetrisPlayerOne {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#nextPlayerOne{
+    position: absolute;
+    left: 32%;
+    top: 10%;
+}
+
+#scoreP2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    bottom: 38%;
+    right: 32%;
+}
+
+#tetrisPlayerTwo {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+#nextPlayerTwo{
+    position: absolute;
+    right: 32%;
+    top: 10%;
+}
+
+#instructionsPlayerOne{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+
+#instructionsPlayerTwo{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    right: 24%;
+}
